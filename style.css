@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color:/* Group 1 */
+
+  position: absolute;
+  width: 1880px;
+  height: 125.7px;
+  left: 20px;
+  top: -30px;
+
+
+
+  /* Верхяя панель */
+
+  position: absolute;
+  width: 1880px;
+  height: 76px;
+  left: 20px;
+  top: 0px;
+
+
+  box-sizing: border-box;
+  position: absolute;
+  width: 95px;
+  height: 83px;
+  left: 78px;
+  top: -30px;
+
+
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 7px;
+  color: #fff;
+  padding: 10px;
+}
+
+.page {
+  margin: 0;
+  padding: 0;
+  flex: auto;
+  /* background: url(https://tenor.com/ru/view/anime-himmel-nacht-nachthimmel-night-gif-26200125) no-repeat; */
+  height: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+.SpacePoisk {
+  display: flex;
+  font-size: 30px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: #666;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+ margin: auto;
+  padding: 20px;
+}
+
+
+
+.card__all {
+ display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex-direction: column;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: auto;
+  margin: auto;
+}
+
+.movie-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.movie-genre, .movie-rating {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.watch-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.watch-btn:hover {
+  background-color: #e53935;
+}
